@@ -166,7 +166,7 @@
                   </div>
                   <!-- price-wrap.// -->
                 </div>
-                <a href="#" class="btn btn-block btn-success"
+                <a href="{% url 'add_cart' product.id %}" class="btn btn-block btn-success"
                   >Agregar al carrtito</a
                 >
               </figcaption>
@@ -178,6 +178,7 @@
         <!-- row end.// -->
 
         <nav class="mt-4" aria-label="Page navigation sample">
+
           <ul class="pagination">
             <li class="page-item disabled">
               <a class="page-link" href="#">Anterior</a>
@@ -191,6 +192,7 @@
               <a class="page-link" href="#">Siguiente</a>
             </li>
           </ul>
+
         </nav>
       </main>
       <!-- col.// -->
